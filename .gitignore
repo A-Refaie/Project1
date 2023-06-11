@@ -2,3 +2,4 @@
 AutogluonModels/*
 Kaggle/*
 Kaggle.json
+*.env
