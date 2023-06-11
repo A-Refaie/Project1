@@ -24,10 +24,11 @@ I would spend more time on both adding extra feature or doing PCA and tuning hyp
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 
-    model	        hpo1	        hpo2	                    hpo3	            score
-0	initial	        default	        default	                    default	            1.83566
-1	add_features	default	        default	                    default	            0.64258
-2	hpo	        criterion: mse	    criterion: friedman_mse	    criterion: mae     	0.55953
+| model        | hpo1           | hpo2                   | hpo3           | score   |
+|--------------|----------------|------------------------|----------------|---------|
+| initial      | default        | default                | default        | 1.83566 |
+| add_features | default        | default                | default        | 0.64258 |
+| hpo          | criterion: mse | criterion:friedman_mse | criterion: mae | 0.55953 |
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
